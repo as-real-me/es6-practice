@@ -1,3 +1,8 @@
+// ============================================
+// ================== Const ===================
+// ============================================
+
+
 // // Const - can't change once you assign a value
 // const name = "Ashiouzzaman";
 // console.log(name);
@@ -34,3 +39,32 @@ console.log(nayok);
 //     number: 6789
 // }
 // console.log(nayok);
+
+
+
+
+// ==========================================
+// ================== Let ===================
+// ==========================================
+
+// let's value is change a able but it follows scoping
+let hospitalPateint = "Rahim chaca";
+console.log(hospitalPateint);
+hospitalPateint = "Fatema Khala";
+console.log(hospitalPateint);
+
+// //scoping of let
+// //at first we are using var to see the scoping difference
+// for (var i = 0; i <10; i++){
+//     console.log("value of i is: " + i);
+// }
+// // here we can access i from outside of loop
+// console.log("Value of i outside of the for loop is: " + i);
+
+
+// //now we are using let cz we don't want to give access of i outside that loop
+// for (let i = 0; i <10; i++){
+//     console.log("value of i is: " + i);
+// }
+// // here we can access i from outside of loop
+// console.log("Value of i outside of the for loop is: " + i);
